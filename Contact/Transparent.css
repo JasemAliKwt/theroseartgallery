@@ -1,0 +1,180 @@
+
+
+body {
+	background		: url("Graphics/Background.jpg");
+}
+.contactF-clear {
+    clear           : both;
+}
+.contactF-hide {
+    display         : none;
+}
+.sample {
+    display         : block;
+    width			: 240px;
+    margin          : 20px auto;
+}
+.sample a {
+    color           : black;
+}
+.sample a:hover {
+    color           : white;
+}
+#contactF {
+    font            : 16px georgia, serif;
+    color           : white;
+}
+#contactF * {
+    margin          : 0;
+    padding         : 0;
+    line-height     : 1.1;
+}
+#contactF p.contactF-margin {
+    margin          : 0px auto;
+}
+#contactF h1 {
+    display         : block;
+    width           : 570px;
+    margin          : 0px auto;
+    font            : 22px arial, sans-serif;
+    font-weight     : bold;
+    text-align      : center;
+    color           : white;
+}
+#contactF-alert {
+    width           : 570px;
+    height          : 20px;
+    margin          : 0px auto 10px auto;
+    padding-top     : 4px;
+    text-align      : center;
+    color           : white;
+    font            : 20px georgia, serif;
+}
+#contactF em {
+    color           : white;
+}
+#contactF-content form {
+    display         : block;
+    width           : 600px;
+    margin          : 0px auto;
+    padding         : 24px 10px 10px 10px;
+    border          : solid 1px white;
+    border-radius   : 5px;
+    background		: url("Graphics/Transparency.png");
+}
+#contactF-input {
+    width           : 520px;
+    border-top      : dotted 1px white;
+    padding-top     : 16px;
+    margin          : 20px auto 0px auto;
+}
+#contactF-company {
+    width           : 180px;
+    float           : right;
+    text-align      : center;
+    padding-top     : 5px;
+}
+#contactF-company span {
+    display         : block;
+}
+#contactF-details {
+    display         : block;
+    width           : 340px;
+}
+#contactF-details span {
+    display         : block;
+    width           : 110px;
+    float           : left;
+    padding-top     : 10px;
+}
+#contactF-input input {
+    width           : 220px;
+    height          : 20px;
+    margin-top      : 6px;
+    float           : right;
+    background      : #f5f5f5;
+}
+#contactF input[type="text"] {
+    border          : solid 1px #bababa;
+    border-radius   : 3px;
+}
+#contactF input[type="submit"] {
+    display         : block;
+    float           : right;
+    height          : 30px;
+    width           : 120px;
+}
+#contactF input[type="submit"]:hover {
+    cursor          : pointer;
+}
+#contactF textarea {
+    display         : block;
+    margin          : 18px auto 0px auto;
+    height          : 190px;
+    width           : 520px;
+    border          : solid 1px #bababa;
+    border-radius   : 5px;
+    background      : #f5f5f5;
+}
+#contactF-attachment {
+	margin			: 10px auto 10px auto;
+	padding-bottom	: 10px;
+    width           : 520px;
+    border-bottom   : dotted 1px white;
+    text-align		: center;
+    font            : 16px arial, sans-serif;
+}
+#contactF-attachment span {
+    font            : 12px arial, sans-serif;
+}
+#contactF-verification {
+    height          : 40px;
+    width           : 530px;
+    margin          : 10px auto 10px auto;
+}
+#contactF-verification b {
+    color           : white;
+}
+#contactF-verification span {
+    display         : block;
+    float           : left;
+    margin-top      : 8px;
+    margin-right    : 10px;
+}
+#contactF-verification input[type=radio] {
+    height          : 12px;
+    width           : 12px;
+    cursor          : pointer;
+}
+#contactF-verification:not(old) input[type=radio] {
+    display         : none;
+}
+#contactF-verification label {
+    height          : 20px; 
+    width           : 20px;
+    display         : inline-block;
+    padding         : 0px;
+    margin          : 0px;
+}
+#contactF-verification label img {
+    pointer-events: none;
+}
+#contactF-verification:not(old) label {
+    height          : 30px;
+    width           : 30px;
+}
+#contactF-verification img {
+    height          : 20px;
+    width           : 20px;
+}
+#contactF-verification:not(old) img {
+    height          : 30px;
+    width           : 30px;
+}
+#contactF-verification:not(old) label:hover {
+    cursor          : pointer;
+}
+#contactF-verification input[type=radio]:checked + label {
+    border          : 1px solid white;
+    padding         : 0px;
+}
